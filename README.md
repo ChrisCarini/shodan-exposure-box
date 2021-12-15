@@ -3,7 +3,7 @@
   <h1 align="center">shodan-exposure-box</h1>
   <p align="center">💻 Update a pinned gist to contain Shodan.io Exposure Stats</p>
   <p align="center">
-    <img src="https://github.com/ChrisCarini/shodan-exposure-box/workflows/Update%20gist%20with%20Shodan%20Stats/badge.svg?branch=main" alt="Update gist with Code::Stats stats">
+    <img src="https://github.com/ChrisCarini/shodan-exposure-box/workflows/Update%20gist%20with%20Shodan%20Stats/badge.svg?branch=main" alt="Update a pinned gist to contain Shodan.io Exposure Stats">
   </p>
 </p>
 
@@ -24,7 +24,7 @@
 
   `https://gist.github.com/ChrisCarini/`**`0c0b8690e430b9fe4572f9c4a38811c1`**.
 
-  (Alternatively this can be put directly in `.github/workflows/codestats.yml` as it is public anyway.)
+  (Alternatively this can be put directly in `.github/workflows/shodan.yml` as it is public anyway.)
 
 ## 🤓 Hacking
 
