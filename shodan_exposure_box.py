@@ -10,6 +10,7 @@ RequestsData = NewType("RequestsData", Dict[str, Any])
 
 ENV_VAR_GIST_ID = "GIST_ID"
 ENV_VAR_GITHUB_TOKEN = "GH_TOKEN"
+REPO_URL = 'https://github.com/ChrisCarini/shodan-exposure-box'
 MAX_LINE_LENGTH = 53
 
 
@@ -72,7 +73,16 @@ def update_gist(title: str, content: str) -> None:
     gist = Github(access_token).get_gist(gist_id)
     # Works only for single file. Should we clear all files and create new file?
     old_title = list(gist.files.keys())[0]
-    gist.edit(title, {old_title: InputFileContent(content, title)})
+    gist.edit(
+        description=title,
+        files={
+            old_title: InputFileContent(content=content, new_name=title),
+            'INFO.md': InputFileContent(
+                content=f"_🔗 [See the source code behind this gist here!]({REPO_URL})_",
+                new_name=f'{title} - INFO.md'
+            ),
+        }
+    )
 
 
 def main():
