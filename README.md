@@ -4,6 +4,7 @@
   <p align="center">💻 Update a pinned gist to contain Shodan.io Exposure Stats</p>
   <p align="center">
     <img src="https://github.com/ChrisCarini/shodan-exposure-box/workflows/Update%20gist%20with%20Shodan%20Stats/badge.svg?branch=main" alt="Update a pinned gist to contain Shodan.io Exposure Stats">
+    <img src="https://github.com/ChrisCarini/shodan-exposure-box/workflows/Linting%20%26%20Test/badge.svg?branch=main" alt="Lint & Test">
   </p>
 </p>
 
@@ -28,9 +29,27 @@
 
 ## 🤓 Hacking
 
-```bash
-# setup
+### Getting Setup
+
+```shell
 python3 -m venv venv
-source venv/bin/activate
+source activate
 pip install -r requirements.txt
+```
+
+### Saving Dependencies
+
+```shell
+source activate
+pip-chill > requirements.txt
+```
+
+### Running linting and tests
+
+```shell
+isort main.py shodan.py test/ && \
+mypy main.py shodan.py test/ && \
+flake8 main.py shodan.py test/ && \
+blue --check main.py shodan.py test/ && \
+pytest test/
 ```

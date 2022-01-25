@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Update gist
-        run: python shodan_exposure_box.py
+        run: python main.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: '0c0b8690e430b9fe4572f9c4a38811c1'
