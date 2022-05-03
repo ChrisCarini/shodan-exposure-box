@@ -1,4 +1,4 @@
-blue==0.8.0
+blue==0.9.0
 isort==5.10.1
 mypy==0.950
 pip-chill==1.0.1
