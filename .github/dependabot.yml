@@ -3,7 +3,7 @@
 
 version: 2
 updates:
-  # Maintain dependencies for Gradle dependencies
+  # Maintain dependencies for pip dependencies
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
