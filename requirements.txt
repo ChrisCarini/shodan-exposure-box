@@ -1,6 +1,6 @@
 blue==0.9.1
 isort==5.10.1
-mypy==0.982
+mypy==0.990
 pip-chill==1.0.1
 pygithub==1.57
 pytest-cov==4.0.0
