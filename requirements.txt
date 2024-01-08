@@ -5,4 +5,4 @@ pip-chill==1.0.3
 pygithub==2.1.1
 pytest-cov==4.1.0
 requests-mock==1.11.0
-types-requests==2.31.0.20231231
+types-requests==2.31.0.20240106
