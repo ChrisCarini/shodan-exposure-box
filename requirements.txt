@@ -1,4 +1,5 @@
 black==24.10.0
+flake8==7.1.1
 isort==5.13.2
 mypy==1.13.0
 pip-chill==1.0.3
