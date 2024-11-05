@@ -38,8 +38,8 @@ jobs:
       - name: Lint - flake8
         run: flake8 main.py shodan.py test/
 
-      - name: Lint - blue
-        run: blue --check main.py shodan.py test/
+      - name: Lint - black
+        run: black --check main.py shodan.py test/
 
       - name: Test
         run: pytest
