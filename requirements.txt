@@ -1,7 +1,7 @@
 black==25.1.0
 flake8==7.2.0
 isort==6.0.1
-mypy==1.16.0
+mypy==1.16.1
 pip-chill==1.0.3
 pygithub==2.6.1
 pytest-cov==6.2.1
