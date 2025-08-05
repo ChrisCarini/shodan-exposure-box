@@ -1,9 +1,7 @@
-black==25.1.0
-flake8==7.3.0
-isort==6.0.1
 mypy==1.17.0
 pip-chill==1.0.3
-pygithub==2.6.1
+pygithub==2.7.0
 pytest-cov==6.2.1
 requests-mock==1.12.1
+ruff==0.12.7
 types-requests==2.32.4.20250611
