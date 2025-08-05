@@ -29,17 +29,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Lint - isort
-        run: isort main.py shodan.py test/
+      - name: Lint - ruff
+        run: ruff check
 
       - name: Lint - mypy
         run: mypy main.py shodan.py test/
-
-      - name: Lint - flake8
-        run: flake8 main.py shodan.py test/
-
-      - name: Lint - black
-        run: black --check main.py shodan.py test/
 
       - name: Test
         run: pytest
