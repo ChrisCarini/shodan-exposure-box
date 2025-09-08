@@ -1,7 +1,7 @@
 mypy==1.17.1
 pip-chill==1.0.3
 pygithub==2.8.1
-pytest-cov==6.2.1
+pytest-cov==6.3.0
 requests-mock==1.12.1
 ruff==0.12.12
 types-requests==2.32.4.20250809
