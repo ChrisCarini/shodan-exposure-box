@@ -1,5 +1,5 @@
 mypy==1.19.1
-pip-chill==1.0.3
+pip-chill==1.0.5
 pygithub==2.8.1
 pytest-cov==7.0.0
 requests-mock==1.12.1
