@@ -1,4 +1,4 @@
-mypy==1.19.1
+mypy==1.20.0
 pip-chill==1.0.5
 pygithub==2.9.0
 pytest-cov==7.1.0
