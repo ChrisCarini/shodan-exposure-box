@@ -4,4 +4,4 @@ pygithub==2.9.0
 pytest-cov==7.1.0
 requests-mock==1.12.1
 ruff==0.15.9
-types-requests==2.33.0.20260402
+types-requests==2.33.0.20260408
